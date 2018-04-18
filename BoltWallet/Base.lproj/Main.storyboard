@@ -65,6 +65,21 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.00492610837438"/>
         </scene>
+        <!--Home View Controller-->
+        <scene sceneID="74k-HI-g3k">
+            <objects>
+                <viewController id="o7d-BO-TaT" customClass="HomeViewController" customModule="BoltWallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jqz-5f-Pao">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="DQ2-Ut-YhN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18l-NQ-wFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850" y="133"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Bitmap" width="393" height="812"/>

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5113ECA3998B35A39FBD2D6B /* Pods_BoltWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3782879DC47A4B64CBDFA5 /* Pods_BoltWallet.framework */; };
 		7F01CA2D20858C1B003B56E7 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F01CA2C20858C1B003B56E7 /* IntroViewController.swift */; };
+		7F01CA4F2087CF7F003B56E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F01CA4E2087CF7F003B56E7 /* HomeViewController.swift */; };
 		7FC6167C2075B54D007F042B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC6167B2075B54D007F042B /* AppDelegate.swift */; };
 		7FC616812075B54D007F042B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC6167F2075B54D007F042B /* Main.storyboard */; };
 		7FC616832075B54D007F042B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC616822075B54D007F042B /* Assets.xcassets */; };
@@ -15,13 +17,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3782879DC47A4B64CBDFA5 /* Pods_BoltWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoltWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F01CA2C20858C1B003B56E7 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		7F01CA4E2087CF7F003B56E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7FC616782075B54D007F042B /* BoltWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoltWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC6167B2075B54D007F042B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC616802075B54D007F042B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FC616822075B54D007F042B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC616852075B54D007F042B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FC616872075B54D007F042B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826037A0A21184671D3CBF5A /* Pods-BoltWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoltWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoltWallet/Pods-BoltWallet.release.xcconfig"; sourceTree = "<group>"; };
+		9B0878DB07D527386357C7F5 /* Pods-BoltWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoltWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoltWallet/Pods-BoltWallet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5113ECA3998B35A39FBD2D6B /* Pods_BoltWallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				7FC6167A2075B54D007F042B /* BoltWallet */,
 				7FC616792075B54D007F042B /* Products */,
+				9D5274713C5C0EA167C15048 /* Pods */,
+				CA958B76537B6BF83FDCD1C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +65,30 @@
 			children = (
 				7FC6167B2075B54D007F042B /* AppDelegate.swift */,
 				7F01CA2C20858C1B003B56E7 /* IntroViewController.swift */,
+				7F01CA4E2087CF7F003B56E7 /* HomeViewController.swift */,
 				7FC6167F2075B54D007F042B /* Main.storyboard */,
 				7FC616822075B54D007F042B /* Assets.xcassets */,
 				7FC616842075B54D007F042B /* LaunchScreen.storyboard */,
 				7FC616872075B54D007F042B /* Info.plist */,
 			);
 			path = BoltWallet;
+			sourceTree = "<group>";
+		};
+		9D5274713C5C0EA167C15048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B0878DB07D527386357C7F5 /* Pods-BoltWallet.debug.xcconfig */,
+				826037A0A21184671D3CBF5A /* Pods-BoltWallet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA958B76537B6BF83FDCD1C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E3782879DC47A4B64CBDFA5 /* Pods_BoltWallet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FC6168A2075B54D007F042B /* Build configuration list for PBXNativeTarget "BoltWallet" */;
 			buildPhases = (
+				83DC988AD90A79FDA7097A3F /* [CP] Check Pods Manifest.lock */,
 				7FC616742075B54D007F042B /* Sources */,
 				7FC616752075B54D007F042B /* Frameworks */,
 				7FC616762075B54D007F042B /* Resources */,
+				7CEAEAF072815DF0C84BA996 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +160,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CEAEAF072815DF0C84BA996 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BoltWallet/Pods-BoltWallet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BoltWallet/Pods-BoltWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DC988AD90A79FDA7097A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoltWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FC616742075B54D007F042B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +208,7 @@
 			files = (
 				7FC6167C2075B54D007F042B /* AppDelegate.swift in Sources */,
 				7F01CA2D20858C1B003B56E7 /* IntroViewController.swift in Sources */,
+				7F01CA4F2087CF7F003B56E7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +343,7 @@
 		};
 		7FC6168B2075B54D007F042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0878DB07D527386357C7F5 /* Pods-BoltWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +359,7 @@
 		};
 		7FC6168C2075B54D007F042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826037A0A21184671D3CBF5A /* Pods-BoltWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
